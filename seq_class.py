@@ -73,7 +73,7 @@ class Dnaseq(Sequences):
                 'GGA': 'G', 'GGG': 'G'}
     complement_dict = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C', 'W': 'W', 'S': 'S', 'R': 'Y', 'Y': 'R', 'K': 'M',
                        'M': 'K', 'B': 'V', 'V': 'B', 'D': 'H', 'H': 'D', 'N': 'N', '-': '-'}
-    deg_nucl_dict = {'S': 'CG', 'R': 'AG', 'Y': 'TC', 'K': 'GT', 'M': 'CA', 'B': 'CGT', 'V': 'CGA', 'D': 'AGT',
+    deg_nucl_dict = {'S': 'CG', 'R': 'AG', 'Y': 'TC', 'K': 'GT', 'M': 'CA', 'W': 'AT', 'B': 'CGT', 'V': 'CGA', 'D': 'AGT',
                      'H': 'TCA', 'N': 'AGTC', 'A': 'A', 'C': 'C', 'G': 'G', 'T': 'T'}
 
     def __init__(self, name, sequence, missing_val='N', gap_val='-'):
